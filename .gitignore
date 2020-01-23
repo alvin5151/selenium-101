@@ -1,0 +1,12 @@
+*~
+target/
+logs
+.project
+.settings
+.classpath
+*.iml
+*.iws
+*.ipr
+.idea/
+docker/volumes
+test-output/

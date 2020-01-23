@@ -9,7 +9,8 @@ public class DriverFactory {
 
     public static void newInstance() {
         try {
-            //chrome
+            //This is for chrome. You can add different drivers in this section in an 'if else' condition.
+
                 System.setProperty("webdriver.chrome.driver", "//usr//bin//chromedriver");  // replace your chrome driver path here
                 driver = new ChromeDriver();
 
@@ -18,8 +19,6 @@ public class DriverFactory {
             System.out.println(e.toString());
         }
     }
-
-
     public static WebDriver getDriver() {
         return driver;
     }
